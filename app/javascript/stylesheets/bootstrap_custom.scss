@@ -1,0 +1,121 @@
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/_mixins.scss';
+@import '~bootstrap/scss/_root.scss';
+@import '~bootstrap/scss/_reboot.scss';
+@import '~bootstrap/scss/_type.scss';
+@import '~bootstrap/scss/_alert.scss';
+@import '~bootstrap/scss/_badge';
+@import '~bootstrap/scss/_breadcrumb';
+@import '~bootstrap/scss/_button-group';
+@import '~bootstrap/scss/_buttons';
+@import '~bootstrap/scss/_buttons.scss';
+@import '~bootstrap/scss/_card.scss';
+@import '~bootstrap/scss/_carousel.scss';
+@import '~bootstrap/scss/_close.scss';
+@import '~bootstrap/scss/_code.scss';
+@import '~bootstrap/scss/_custom-forms.scss';
+@import '~bootstrap/scss/_dropdown.scss';
+@import '~bootstrap/scss/_forms.scss';
+@import '~bootstrap/scss/_grid.scss';
+@import '~bootstrap/scss/_images.scss';
+@import '~bootstrap/scss/_input-group.scss';
+@import '~bootstrap/scss/_jumbotron.scss';
+@import '~bootstrap/scss/_list-group.scss';
+@import '~bootstrap/scss/_media.scss';
+@import '~bootstrap/scss/_modal.scss';
+@import '~bootstrap/scss/_nav.scss';
+@import '~bootstrap/scss/_navbar.scss';
+@import '~bootstrap/scss/_pagination.scss';
+@import '~bootstrap/scss/_popover.scss';
+@import '~bootstrap/scss/_print.scss';
+@import '~bootstrap/scss/_progress.scss';
+@import '~bootstrap/scss/_spinners.scss';
+@import '~bootstrap/scss/_tables.scss';
+@import '~bootstrap/scss/_toasts.scss';
+@import '~bootstrap/scss/_tooltip.scss';
+@import '~bootstrap/scss/_transitions.scss';
+@import '~bootstrap/scss/_utilities.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Overpass|Overpass+Mono|Roboto&display=swap');
+
+.clear {
+    clear: both;
+  }
+
+  .circle {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #f84342;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform: rotate(11deg);
+    -ms-transform: rotate(11deg); /* IE 9 */
+    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+    padding-top: 26px;
+}
+
+.footer-blurb {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+}
+
+.links {
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+header {
+    border-top: 9px solid #222222;
+}
+
+hr {
+    clear: both;
+}
+
+h1 {
+    font-family: 'Overpass', sans-serif;
+  }
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+  
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+}
+
+.next-quote {
+    color: rgb(9, 5, 65);
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-size: 20px;
+  }
